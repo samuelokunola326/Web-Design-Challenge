@@ -14,6 +14,7 @@ header,
 }
 
 .top-nav-collapse {
+    text-align: right;
     background-color: #24355C;
   }
   @media (max-width: 768px) {
@@ -27,6 +28,92 @@ header,
     }
   }
 
+  @media (min-width: 600px)
+.navbar.scrolling-navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    -webkit-transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out,padding 0.5s ease-in-out;
+}
+
+@media (min-width: 600px)
+.navbar.scrolling-navbar .navbar-nav>li {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    font-weight: 300;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+  }
+  
+
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar .navbar-toggler {
+    border-width: 0;
+    outline: 0;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
   h2.headstyle {
     text-align: center;
     font-weight:100;
@@ -36,4 +123,10 @@ header,
   h4.p_text {
     text-align: center;
     color:#FFFFFF;
+  }
+
+  a.realign {
+    text-align: right;
+    font-weight:100;
+
   }
