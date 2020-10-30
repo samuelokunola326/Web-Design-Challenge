@@ -9,7 +9,14 @@ h1 {
 }
 
 h3 {
+  font-size: 50px;
+  padding: 15px;
+}
+
+p {
   font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
 }
 
 /* Giving our navbar some padding and a background color */
@@ -80,3 +87,22 @@ h3 {
     visibility: visible;
   }
 }
+
+
+.resize {
+  width: 300px;
+  height: auto;
+}
+
+/* .resize {
+  width: 300px;
+  height: auto;
+} */
+
+
+
+element.style {
+  background-image: url(https://farm4.staticflickr.com/3845/33579057365_238c323a28_k.jpg?momo_cache_bg_uuid=4422b985-8b22-4d7a-ad55-852811f2501b);
+}
+
+

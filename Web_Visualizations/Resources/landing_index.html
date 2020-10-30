@@ -6,7 +6,7 @@
   <title>CSS Review</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="landing_styles.css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">>
 </head>
 
 <body>
@@ -21,16 +21,16 @@
           <a href="lat_page.html">Lattitude</a>
         </li>
         <li>
-          <a href="#">Humidity</a>
+          <a href="Humidity.html">Humidity</a>
         </li>
         <li>
-          <a href="#">Cloudiness</a>
+          <a href="Cloudiness.html">Cloudiness</a>
         </li>
         <li>
-          <a href="#">Wind Speed</a>
+          <a href="Wind_Speed.html">Wind Speed</a>
         </li>
         <li>
-          <a href="#">Summary Review</a>
+          <a href="Summary.html">Summary Review</a>
         </li>
       </ul>
       <select id="nav-select">
@@ -47,9 +47,12 @@
       <h1>Welcome to Weather Vizz</h1>
     </header>
     <main>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-8">
       <section class="posts">
         <article class="post">
-          <h3>Project Overview</h3>
+          <h3><b>Project Overview</b></h3>
           <p> The purpose behind this project was to annalyze the correlation to weather conditions of different cities as you get closer to the equator.
             We analyzed data from over 500 cities and looked for correlations between 4 main types of weather conditions: Cloudiness, Humidity, Wind Speed, and 
             Max Tempurature. The previews to the right will take you to the corresponding chart to view our findings, there is also a page with our source data for those who wish to conduct further analysis.
@@ -57,6 +60,20 @@
           </p>
         </article>
       </section>
+      </div>
+      
+          <div class="col-md-4">
+            <img class="resize" src="assets_images/City_Lat_vs_Cloudiness.png"/>
+            <img class="resize" src="assets_images/City_Lat_vs_Humidity.png"/>
+            <img class="resize" src="assets_images/City_Lat_vs_Max_Temp.png"/>
+            <img class="resize" src="assets_images/City_Lat_vs_Wind_Speed.png"/>
+          </div>
+<!-- Closing grid + row -->
+      </div>
+      </div>
+
+
+
     </main>
   </div>
 
