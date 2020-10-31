@@ -25,14 +25,11 @@
           <a href="cities.csv">Data</a>
         </li>
 
-        <li>
-          <a href="Summary.html">Comparison</a>
-        </li>
       </ul>
 
       <select id="nav-select">
         <option value="Plots">Plots</option>
-        <option value="Lattitude">Lattitude</option>
+        <option value="Latitude">Latitude</option>
         <option value="Humidity">Humidity</option>
         <option value="Cloudiness">Cloudiness</option>
         <option value="Wind Speed">Wind Speed</option>
@@ -41,59 +38,52 @@
       <div class="clearfix"></div>
     </nav>
     <header class="header">
-      <h1>Welcome to Weather Vizz</h1>
+      <h1>Comparison</h1>
     </header>
     <main>
       
-      <!-- <span class="side-col">
+      <!-- <span class="side-col"></span> -->
 
-      </span> -->
-
-        <!-- <span class="center-col"> -->
+        
           <div class="container">
             <div class="row">
 
-            <div class="col-lg-8">
+                <div class="col-lg-6">
+
+                    <!-- <span class="side-col"> -->
+                        <!-- <span class="center-col services-section img"> -->
+
+                        <img class="resize_s" src="assets_images/City_Lat_vs_Cloudiness.png">
+                        
+
+                        <!-- </span>
+
+                        <span class="side-col"></span> -->
+                       
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <img class="resize_s" src="assets_images/City_Lat_vs_Wind_Speed.png">
+
+
+                    </div>
+
+            <!-- <div class="col-lg-4"> -->
+        <span class="center-col services-section img">
       <section class="posts">
         <article class="post">
-          <h3><b>Project Overview</b></h3>
-          <p> The purpose behind this project was to annalyze the correlation to weather conditions of different cities as you get closer to the equator.
-            We analyzed data from over 500 cities and looked for correlations between 4 main types of weather conditions: Cloudiness, Humidity, Wind Speed, and 
-            Max Tempurature.  
-          </p>
-          <p>
-            The previews will take you to the corresponding chart to view our findings, there is also a page with our source data for those who wish to conduct further analysis.
-            Our hope is that you find this information usful in making any decions weather related.
+          <h3><b>Analysis</b></h3>
+          <p> This visualization compares the cloudiness percentage by the latitude of the city. Based on what we are seeing it looks like for the most part
+              latitude has little to no effect on the cloudiness  percentage. The only exception worth noting is that in locations below -60 degrees
+              seem to have little to no cloudiness this could be a result of the limitation of our data size as well and would need further review.  
           </p>
         </article>
       </section>
-            </div>
+        </span>
+            <!-- </div> -->
 
-            <div class="col-lg-4">
-
-              <!-- <span class="side-col"> -->
-                <h4>Cloudiness</h4>
-                <a href="Cloudiness.html">
-                  <img class="resize center-below" alt="Qries" src="assets_images/City_Lat_vs_Cloudiness.png">
-                </a>
-                  <!-- <img class="resize center-below" src="assets_images/City_Lat_vs_Cloudiness.png"/> -->
-                  <h4>Humidity</h4>
-                  <a href="Humidity.html">
-                    <img class="resize center-below" alt="Qries" src="assets_images/City_Lat_vs_Humidity.png">
-                  </a>
-                  <!-- <img class="resize center-below" src="assets_images/City_Lat_vs_Humidity.png"/> -->
-                  <h4>Max Temp</h4>
-                  <a href="Max_Temp.html">
-                    <img class="resize center-below" alt="Qries" src="assets_images/City_Lat_vs_Max_Temp.png">
-                  </a>
-                  <!-- <img class="resize center-below" src="assets_images/City_Lat_vs_Max_Temp.png"/> -->
-                  <h4>Wind Speed</h4>
-                  <a href="Wind_Speed.html">
-                    <img class="resize center-below" alt="Qries" src="assets_images/City_Lat_vs_Wind_Speed.png">
-                  </a>
-                  <!-- <img class="resize center-below" src="assets_images/City_Lat_vs_Wind_Speed.png"/> -->
-              <!-- </span> -->
-              </div>
+            
 
           <!-- <div class="col-lg-6">
       <section class="posts">
@@ -102,7 +92,7 @@
         </article>
       </section>
           </div> -->
-        <!-- </span> -->
+        
 
         
 

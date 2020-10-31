@@ -104,6 +104,11 @@ p {
   height: auto;
 }
 
+.resize_s {
+  width: 600px;
+  height: auto;
+}
+
 
 .services-section img {
   /* width: 90px;
