@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Review</title>
+  <title>Weather Vizz</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="landing_styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">>
@@ -13,43 +13,43 @@
 
   <div class="container">
     <nav class="navbar">
+
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#">Weather Vizz</a>
         </li>
+        
+        <li></li>
+
         <li>
-          <a href="lat_page.html">Lattitude</a>
+          <a href="cities.csv">Data</a>
         </li>
-        <li>
-          <a href="Humidity.html">Humidity</a>
-        </li>
-        <li>
-          <a href="Cloudiness.html">Cloudiness</a>
-        </li>
-        <li>
-          <a href="Wind_Speed.html">Wind Speed</a>
-        </li>
+
         <li>
           <a href="Summary.html">Summary Review</a>
         </li>
       </ul>
+
       <select id="nav-select">
-        <option value="home">Home</option>
-        <option value="Lattitude">About</option>
-        <option value="Humidity">Portfolio</option>
-        <option value="Cloudiness">Contact</option>
-        <option value="Wind Speed">Contact</option>
-        <option value="Summary Review">Contact</option>
+        <option value="Plots">Plots</option>
+        <option value="Lattitude">Lattitude</option>
+        <option value="Humidity">Humidity</option>
+        <option value="Cloudiness">Cloudiness</option>
+        <option value="Wind Speed">Wind Speed</option>
       </select>
+
       <div class="clearfix"></div>
     </nav>
     <header class="header">
       <h1>Welcome to Weather Vizz</h1>
     </header>
     <main>
-      <div class="container">
-      <div class="row">
-        <div class="col-md-8">
+      
+      <span class="side-col">
+
+      </span>
+
+        <span class="center-col">
       <section class="posts">
         <article class="post">
           <h3><b>Project Overview</b></h3>
@@ -60,17 +60,37 @@
           </p>
         </article>
       </section>
-      </div>
-      
-          <div class="col-md-4">
+        </span>
+
+        <span class="side-col">
+        </span>
+
+
+        <span class="side-col">
+        </span>
+
+          <span class="center-col">
             <img class="resize" src="assets_images/City_Lat_vs_Cloudiness.png"/>
             <img class="resize" src="assets_images/City_Lat_vs_Humidity.png"/>
+          </span>
+
+          <span class="side-col">
+          </span>
+
+          <span class="side-col">
+          </span>
+
+          <span class="center-col">
             <img class="resize" src="assets_images/City_Lat_vs_Max_Temp.png"/>
             <img class="resize" src="assets_images/City_Lat_vs_Wind_Speed.png"/>
-          </div>
+          </span>
+
+          <span class="side-col">
+          </span>
+
 <!-- Closing grid + row -->
-      </div>
-      </div>
+      
+      
 
 
 
