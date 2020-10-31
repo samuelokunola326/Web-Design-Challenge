@@ -1,20 +1,23 @@
 
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+/* Giving the body the specified background color */
 body {
   background: #f1f1f1;
   
 }
 
+ /* font size for h1  */
 h1 {
   font-size: 80px;
   
 }
 
+/* formating h3 headers */
 h3 {
   font-size: 50px;
   padding: 15px;
 }
 
+ /* formating all text  paragraph */
 p {
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
@@ -29,7 +32,7 @@ p {
 }
 
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/* Making our navbar li's inline elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
   display: inline;
   padding: 20px;
@@ -49,7 +52,7 @@ p {
   bottom:20px;
 }
 
-/* Styling the header, giving it a height, a background color, and some top padding */
+/* Styling the header, giving it a height, a background image, and some top padding */
 .header {
   height: 200px;
   padding-top: 20px;
@@ -73,6 +76,7 @@ p {
   margin-left: 100px;
 }
 
+/* show drop down bar */
 #nav-select {
   visibility: visible;
   float: right
@@ -93,33 +97,36 @@ p {
     visibility: hidden;
   }
 
-  /* #nav-select {
-    visibility: visible;
-  } */
+ 
 }
 
-
+/* used to resize images on landing page */
 .resize {
   width: 250px;
   height: auto;
 }
 
+/* used to resize images on comparison pages */
 .resize_s {
   width: 600px;
   height: auto;
 }
 
-
+/* styling for images on the visualization pages */
 .services-section img {
-  /* width: 90px;
-  height: 90px; */
+  
   margin: auto;    
   display: block;
 }
 
-
+/* table styling */
 .table_sty{
   border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:40px 
  
 }
+
+
 
